@@ -41,7 +41,6 @@ COPY main.py /app/main.py
 EXPOSE 5556
 
 # 创建挂载点
-VOLUME /app/Volume
 
 # 设置容器启动命令
 CMD ["python", "main.py", "TUI"]
